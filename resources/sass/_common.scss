@@ -1,0 +1,54 @@
+/*common*/
+
+body,
+html {
+	font-family: $font-family-primary;    
+}
+
+.app-container {
+	background-color: $acq-brand-body-bg;
+}
+
+a {
+	color: $primary-color;
+
+	&:hover {
+		color: $primary-color-hover;
+	}
+}
+
+.voyager {
+	.pagination {
+		.active {
+			a {
+				background-color: $primary-color;
+				border-color: $primary-color;
+
+				&:hover {
+					background-color: $primary-color-hover;
+					border-color: $primary-color-hover;
+				}
+			}
+		}
+	}
+}
+
+.form-control {
+	&:focus {
+		border-color: $info-color;
+	}
+}
+
+.custom-content-wrap {
+
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+		margin-bottom: 7px;
+		margin-top: 0;
+		color: $xxdark-gray;
+	}
+
+	ol li, ul li, dl li {
+		line-height: 1.8;
+	}
+
+}

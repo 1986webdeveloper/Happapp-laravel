@@ -1,0 +1,26 @@
+/*login*/
+body.login {
+
+	.logo-title-container {
+		a {
+			color: $acq-brand-color-text;
+			font-weight: $font-weight-semibold;
+
+			&:hover {
+				color: $acq-brand-hover-color;
+			}
+		}
+	}
+
+	.login-button {
+		background: $primary-color;
+	}
+
+	.form-group.form-group-default.focused {
+		border-color: $primary-color;
+	}
+	
+	div.login-sidebar {
+		border-top: $border-xxthicker $primary-color;
+	}
+}

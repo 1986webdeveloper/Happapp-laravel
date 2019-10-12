@@ -1,0 +1,153 @@
+/*sidebar*/
+.voyager {
+	.app-container {
+		.content-container {
+			.side-menu.sidebar-inverse {
+				background: $dark-gray;
+
+				.navbar-header {
+					background-color: $dark-gray;
+					height: $navbar-top-height;
+					padding: 0 12px;
+
+					.navbar-nav {
+						float: none;
+					}
+
+				}
+
+				.side-menu-container {	
+					.navbar-header {
+						ul {
+							li {
+								a.navbar-brand {
+									line-height: $navbar-top-height;
+
+									&:hover {
+										background: transparent;
+									}
+								}
+
+								&.nav-toggle {
+								    display: none;
+								}
+
+								.title {
+									font-size: $xxx-large-size;
+								}
+							}
+						}
+					}
+
+				}
+
+				.bgimage {
+					.avatar {
+						float: none;
+					    width: 60px;
+					    height: 60px;
+					    margin: 0 auto;
+					    border: $border-thicker $white;
+					}
+
+					h4 {
+						position: relative;
+					    left: auto;
+					    width: 100%;
+					    text-align: center;
+					    margin-bottom: 0;
+					    height: 20px;
+					    line-height: normal;
+					}
+
+					p {
+						display: block;
+					}
+
+					.btn-primary {
+						display: inline-block;
+					}
+				}
+
+				#adminmenu {
+
+					ul.nav {
+
+						li {
+
+							&.active {
+								background-color: $active-background-color;
+								border-right: $border-xthicker $info-color;
+							}
+
+							a {
+								padding: 12px 36px 12px 15px;
+								line-height: normal;
+								font-family: $font-family-primary;
+
+								&:after {
+									font-size: $x-large-size;
+								}
+
+								span {
+									transition: all 0.2s ease;
+
+									&.title {
+										font-size: $medium-size;
+										color: $menu-link-color;
+										letter-spacing: 0.2px;
+									}
+								}
+
+								span.icon {
+									font-size: $xxx-large-size;
+									color: $menu-link-color;
+									width: 26px;
+								}
+
+								&:hover {
+									background-color: transparent;
+
+									span {
+										transform: translateX(4px);
+									}
+								}
+							}
+
+							&.dropdown {
+								border-right: none;
+								
+								> a[aria-expanded="true"] {
+									background-color: $active-background-color;
+								}
+
+								&.active {
+									> a[aria-expanded="true"] {
+										border-right: $border-xthicker $info-color;
+									}
+								}
+
+								&:hover {
+									a {
+										color: $menu-link-color;
+									}
+								}
+
+								ul.nav.navbar-nav {
+									li:hover {
+										span {
+											transform: translateX(-4px);
+										}
+									}
+								}
+							}
+
+						}
+
+					}
+
+				}
+			}
+		}
+	}
+}

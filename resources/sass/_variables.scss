@@ -1,0 +1,108 @@
+// Body
+
+// Typography
+$font-family-primary: 'Quicksand', sans-serif;
+$font-family-secodary: 'Open Sans', sans-serif;
+
+// Colors
+$white: #FFFFFF;
+$black: #000000;
+
+$primary-color: #666EE8;
+$btn-danger: #FF4961;
+$btn-warning: #FF9149;
+$btn-success: #28D094;
+$info-color: #1E9FF2;
+
+// acq brand color
+$acq-brand-color-text: #FD5615;
+$acq-brand-hover-color: #BF3600;
+$acq-brand-body-bg: #F4F5FA;
+
+// Colors
+$xxxdark-gray: #EEEEEE;
+$xxdark-gray: #464855;
+$dark-gray: #2C303B;
+$light-gray: #6B6F82;
+$xlight-gray: #E4E5EC;
+$xxlight-gray: #F5F5F5;
+$menu-link-color: #DCDCDC;
+
+$active-background-color: #23262F;
+$menu-builder-border-color: #D1DCE6;
+
+$xlight-blue: #FAFBFC;
+
+$table-border-color: #E3EBF3;
+$form-border-color: #CACFE7;
+$placeholder-color: #AEB5DA;
+$input-value-color: #3B4781;
+
+$profile-size: 36px;
+$navbar-top-height: 70px;
+
+// border
+$border-thin: 1px solid;
+$border-thick: 2px solid;
+$border-thicker: 3px solid;
+$border-xthicker: 4px solid;
+$border-xxthicker: 5px solid;
+
+// font weight
+$font-weight-normal: 400;
+$font-weight-semibold: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+
+// font-size
+$xx-small-size: 11px;
+$x-small-size: 12px;
+$small-size: 14px;
+$medium-size: 15px;
+$large-size: 16px;
+$x-large-size: 18px;
+$xx-large-size: 20px;
+$xxx-large-size: 21px;
+$xxxx-large-size: 42px;
+
+// border radius
+$nav-tab-border-radius: 5px 5px 0 0;
+$border-radius-small: 3px;
+$border-radius-medium: 4px;
+$border-radius-large: 5px;
+$border-radius-xlarge: 1000px;
+
+// box-shadow color
+$black-color: rgb(0, 0, 0);
+$dark-blue-color: rgb(62, 57, 107);
+$dark-gray-color: rgb(107, 111, 130);
+$xdark-gray-color: rgb(95, 95, 95);
+$xxdark-gray-color: rgb(64, 70, 74);
+
+// box shadow
+$pull-up-hover-shadow: 0 14px 24px rgba($dark-blue-color, 0.2);
+$content-box-shadow: 0 1px 15px 1px rgba($dark-blue-color, 0.07);
+$user-list-image-shadow: 0 2px 10px 0 rgba($dark-gray-color, 0.3);
+$footer-shadow: 1px 0 20px rgba($black-color, 0.1);
+$nav-top-shadow: 0 2px 30px 2px rgba($black-color, 0.1);
+$dropdown-menu-shadow: 0 5px 75px 2px rgba($xxdark-gray-color, 0.2);
+$dropdown-menu-before-shadow: 0 8px 10px 1px rgba($xdark-gray-color, 0.14), 0 3px 14px 3px rgba($xdark-gray-color, 0.12), 0 4px 15px 0 rgba($xdark-gray-color, 0.2);
+
+// Colour Function
+$primary-color-hover: lighten(desaturate($primary-color, 0.35), 4.90);
+$primary-border-color: darken(desaturate($primary-color, 0.30), 10.00);
+
+$btn-danger-hover: lighten($btn-danger, 5.10);
+$btn-danger-border: darken($btn-danger, 10.00); 
+$btn-danger-border-hover: darken($btn-danger, 4.90);
+
+$btn-warning-hover: lighten($btn-warning, 5.10);
+$btn-warning-border: darken($btn-warning, 10.00); 
+$btn-warning-border-hover: darken($btn-warning, 4.90);
+
+$btn-success-hover: lighten(saturate($btn-success, 0.05), 5.10);
+$btn-success-border: darken(desaturate($btn-success, 0.23), 10.00); 
+$btn-success-border-hover: darken(desaturate($btn-success, 0.03), 4.90);
+
+$info-dark: darken(saturate($info-color, 0.06), 10.00);
+$info-light: lighten(saturate($info-color, 0.23), 10.00);

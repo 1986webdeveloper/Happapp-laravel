@@ -1,0 +1,13 @@
+/*footer*/
+.voyager {
+    .app-footer {
+		@include box-shadow($footer-shadow);
+		opacity: 1;
+		position: relative;
+
+		.site-footer-right {
+			color: $light-gray;
+			font-weight: $font-weight-semibold;
+		}
+    }
+}

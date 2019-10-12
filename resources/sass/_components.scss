@@ -1,0 +1,39 @@
+/*-----------------------------
+Components
+-------------------------------*/
+
+.height-400 {
+  height: 400px !important;
+}
+
+.avatar {
+  	position: relative;
+  	display: inline-block;
+  	width: 30px;
+  	white-space: nowrap;
+  	border-radius: $border-radius-xlarge;
+  	vertical-align: bottom;
+  	 white-space: nowrap;
+
+  	&.avatar-sm {
+	  	width: 32px;
+	}
+
+	img {
+	  	width: 100%;
+	  	max-width: 100%;
+	  	height: auto;
+	  	border: 0 none;
+	  	border-radius: $border-radius-xlarge;
+	}
+}
+
+.pull-up {
+  	@include transition(all 0.25s ease);
+
+  	&:hover {
+    	@include transform(translateY(-4px) scale(1.02));
+    	@include box-shadow($pull-up-hover-shadow);
+    	z-index: 30; 
+	}
+}

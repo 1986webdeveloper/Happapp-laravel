@@ -1,0 +1,10 @@
+/*Transform mixins*/
+
+@mixin transform($x...){
+  -webkit-transform: $x;
+  -moz-transform: $x;
+  -ms-transform: $x;
+  -o-transform: $x;
+  transform: $x;
+}
+

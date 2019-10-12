@@ -1,0 +1,52 @@
+/*Buttton*/
+
+.voyager {
+	.btn, .btn-sm {
+		font-family: $font-family-primary;
+
+		&.btn-danger {
+			background-color: $btn-danger;
+			border: $border-thin $btn-danger-border;
+			opacity: 1;
+
+			&:hover {
+				background-color: $btn-danger-hover;
+				border-color: $btn-danger-border-hover;
+			}
+		}
+
+		&.btn-warning {
+			background-color: $btn-warning;
+			border: $border-thin $btn-warning-border;
+			opacity: 1;
+
+			&:hover {
+				background-color: $btn-warning-hover;
+				border-color: $btn-warning-border-hover;
+			}
+		}
+
+		&.btn-success {
+			background-color: $btn-success;
+			border: $border-thin $btn-success-border;
+			opacity: 1;
+
+			&:hover {
+				background-color: $btn-success-hover;
+				border-color: $btn-success-border-hover;
+			}
+		}
+
+		&.btn-info {
+			background-color: $info-color;
+			border: $border-thin $info-dark;
+			opacity: 1;
+
+			&:hover {
+				background-color: $info-light;
+				border-color: $info-dark;
+			}
+		}
+
+	}
+}
