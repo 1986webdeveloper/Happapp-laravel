@@ -1,7 +1,7 @@
 ###### You need to follow below commands one by one to install it successfully in your system. ######
 
 1) First of all clone this repo
-$ git clone https://github.com/1986webdeveloper/project-1.git
+$ git clone https://github.com/1986webdeveloper/project-1.git 
 
 2) Next yoou have to install required module using below command. 
 $ pip install -r requirements.txt
